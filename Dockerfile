@@ -1,4 +1,4 @@
-FROM node:10.11
+FROM node:11
 
 WORKDIR /home/node
 COPY --chown=node:node . .
